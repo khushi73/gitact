@@ -42,4 +42,4 @@ jobs:
         username: root
         host: 68.183.88.222
         password: ${{ secrets.SSH_PASSWORD }}
-        script: 'cd /var/www/git-practice'
+        script: 'cd /var/www/quickstart-basic'
