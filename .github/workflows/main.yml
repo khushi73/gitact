@@ -41,6 +41,7 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
+        git remote add origin git@github.com:khushi73/gitact.git
         git checkout -B deploy
         git add -f public/
         git commit -m "Build front-end assets"
