@@ -42,6 +42,7 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git checkout -B deploy
+        git branch -u origin/master
         git add -f public/
         git commit -m "Build front-end assets"
         git push -f origin deploy
